@@ -41,7 +41,7 @@ document.getElementById ('fact').innerHTML = funFact;
 const animalFacts = (
  
    <div>
- <h1>{title === "" ? "Click an animal for a fun fact" : title}</h1>
+ <h1>{title === "" ? "Click an animal for a fun fact." : title}</h1>
  { showBackground && background}
  <p id = 'fact'></p>
  <div className = 'animals'>
